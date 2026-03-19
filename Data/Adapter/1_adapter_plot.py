@@ -8,6 +8,7 @@ path3 = "3adapter_phase_fixed.s1p"
 
 
 def plot_1_adapter():
+    
     ntwk = rf.Network(path1)  
     freq = ntwk.f            
     phase = ntwk.s_deg[:,0,0] 
