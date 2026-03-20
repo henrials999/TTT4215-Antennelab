@@ -37,6 +37,7 @@ def plot_1_adapter():
     plt.title("S11 Phase single adapter")
     plt.savefig("S11_Phase_single adapter.png", dpi=300, bbox_inches='tight')
     plt.show()
+    
 def plot_2_adapter():
     ntwk = rf.Network(path2)  
     freq = ntwk.f            
@@ -129,7 +130,7 @@ def plot_wire_only():
 
 
 
-#plot_1_adapter()
-#plot_2_adapter()
-#plot_3_adapter()
+plot_1_adapter()
+plot_2_adapter()
+plot_3_adapter()
 plot_wire_only()
